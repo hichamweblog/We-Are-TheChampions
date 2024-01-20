@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #1b1924;
+	padding: 1.5rem;
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	line-height: normal;
+	font-weight: 400;
+}
+.container {
+	max-width: 20rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-img {
+	width: 90px;
+	height: 90px;
+	display: block;
+	margin-bottom: 1rem;
+}
+.title {
+	color: #fff;
+	font-size: 1.5625rem;
+	font-weight: 700;
+	margin-bottom: 1.19rem;
+}
+.text {
+	display: block;
+	border-radius: 0.5rem;
+	background: #444059;
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	margin-bottom: 1rem;
+	resize: none;
+	color: #fff;
+	font-family: Inter;
+	font-size: 1.2rem;
+}
+
+.text::placeholder {
+	color: #8f8f8f;
+	font-family: Inter;
+	font-size: 1.2rem;
+}
+
+.text:focus {
+	outline: #28a9f1 solid 0.2rem;
+}
+.btn {
+	color: #04131c;
+	text-align: center;
+	font-size: 1.375rem;
+	font-weight: 700;
+	background: #28a9f1;
+	width: 100%;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	display: block;
+	margin-bottom: 1.5rem;
+	cursor: pointer;
+}
+.endorsements-title {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-bottom: 1.19rem;
+}
+.endorsements-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.endorsement_txt {
+	color: #1b1924;
+	font-family: Inter;
+	font-size: 1.2rem;
+	background: #fff;
+	padding: 0.9rem;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+}
